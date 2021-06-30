@@ -10,6 +10,34 @@ Full documentation for this package can be found here: <a href="https://github.c
 <h2>Installation:</h2>
 <h4>pip install tuya-bulb-control --upgrade</h4>
 
+<h3>Sample Code:</h3>
+
+```Python
+from tuya_bulb_control import Bulb
+
+CLIENT_ID = ''    # Access ID or Client ID
+SECRET_KEY = ''   # Access Secret or Client Secret
+DEVICE_ID = ''    # Devise id which is online to control
+REGION_KEY = ''   # Region key eg: in for india, eu for europe, us for usa, cn for china, etc based on region where the device is there 
+
+bulb = Bulb(
+    client_id=CLIENT_ID,
+    secret_key=SECRET_KEY,
+    device_id=DEVICE_ID,
+    region_key=REGION_KEY
+)
+
+# Turn on the bulb
+bulb.turn_on()
+
+# Change the color to green
+bulb.set_colour_v2(rgb=(0, 255, 0))
+
+# Turn off the light bulb after 5 minutes
+bulb.set_toggle_timer(value=5)
+```
+
+
 <br>
 <h2>Steps for doing the project:</h2>
 1)Make an account here: <a href="https://iot.tuya.com/">New Account</a><br />
@@ -28,6 +56,7 @@ Full documentation for this package can be found here: <a href="https://github.c
 7)From the tuna_bulb_control folder you can see all the different functions available with python codes.<br>
 8)Enter the client id,client secret key, device id, region code in the fields for each program which you want to execute.<br>
 9)After that run the code, see that the device is online and connected to app.
+<br>
 <br>
 <h3>Function available:</h3>
 bulb_on<br>
@@ -55,7 +84,7 @@ You can control device from the below pic by sending data to the id, if success 
 <br>
 <img src="https://user-images.githubusercontent.com/62068859/123900902-95aeb800-d987-11eb-8f9c-7504ed077256.png">
 <br>
-<h4>Note:</h4>
+<h3>Note:</h3>
 Tutorial videos can be seen in youtube for sample ones to connect.<br>
 Even i will upload a video soon to show the demo.
 
