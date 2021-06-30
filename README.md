@@ -16,11 +16,11 @@ Full documentation for this package can be found here: https://aschoe311.github.
 2)Go to cloud development, and make a project.<br />
 3)Fill the details asked.<br />
 4)You can see the new project as the below image.<br />
-![image](https://user-images.githubusercontent.com/62068859/123901442-909e3880-d988-11eb-98a2-593d376baef6.png)
-
+<img src="https://user-images.githubusercontent.com/62068859/123901442-909e3880-d988-11eb-98a2-593d376baef6.png">
 <br>
+
 5)Add a device, I am using a smart bulb with WIFI.<br />
-![image](https://user-images.githubusercontent.com/62068859/123899898-b413b400-d985-11eb-9918-34f6db60de03.png)
+<img src="https://user-images.githubusercontent.com/62068859/123899898-b413b400-d985-11eb-9918-34f6db60de03.png">
 
 <br>
 Save all the details like clint id,clint key, device id, to be used in the  project.
